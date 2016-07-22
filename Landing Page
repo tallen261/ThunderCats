@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thundercats</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/thunder.css">
+</head>
+<body>
+	<div class="container">
+		<div class="contents">
+			<img src="images/thundercats2a.jpg">
+			<button id="entrance">Enter Site</button>
+		</div>
+		
+		<div class="sound">
+			<audio id="cat" preload="auto">
+				<source src="http://www.wavlist.com/soundfx/007/panther-roar2.wav" type="">
+			</audio>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var roar = new Audio ('http://www.wavlist.com/soundfx/007/panther-roar2.wav');
+
+		$("#entrance").click(function(){
+			roar.play();
+		})
+	</script>
+	
+		
+
+
+</body>
+</html>
